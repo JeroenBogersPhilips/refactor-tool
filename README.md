@@ -5,3 +5,7 @@ This tool is compiled as part of the llvm project. To obtain clang, llvm, ninja 
 https://clang.llvm.org/docs/LibASTMatchersTutorial.html
 
 This repo is just for demonstration purposes, so only the core functionality is stored here.
+
+------
+
+The camelCase tools renames method and function names that possibly contain underscores to camelCase format.
