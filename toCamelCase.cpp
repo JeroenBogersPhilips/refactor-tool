@@ -113,8 +113,8 @@ public:
   DeclMatchHandler(Replacements& Replace) 
       : Replace(Replace) {}
 
-	virtual void run(const clang::ast_matchers::MatchFinder::MatchResult &Result) 
-	{
+  virtual void run(const clang::ast_matchers::MatchFinder::MatchResult &Result) 
+  {
       const auto* Function = Result.Nodes.getNodeAs<clang::FunctionDecl>("decl");
       Function->dump();
 
