@@ -8,4 +8,4 @@ This repo is just for demonstration purposes, so only the core functionality is 
 
 ------
 
-The camelCase tools renames method and function names that possibly contain underscores to camelCase format.
+The camelCase tools renames methods and functions that possibly contain underscores to camelCase format.
